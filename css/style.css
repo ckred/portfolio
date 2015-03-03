@@ -1,0 +1,178 @@
+/* Caryl's Portfolio CSS Stylesheet */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Abel', sans-serif;
+	color: white;
+	font-size: 20px;
+	background-color: slategray;
+	padding: 0;
+}
+
+img {
+	border-radius: 2rem;
+}
+
+section {
+	/* border: 2px solid chocolate; */
+	width: 100%
+}
+
+div {
+	position: relative;
+	/* border: 2px solid chocolate; */
+	padding-top: 5em;
+	height: 18em;
+	/* margin: -0.35em; */
+	text-align: center;
+
+}
+
+ul {
+	list-style: none;
+	position: relative;
+	bottom: 0;
+}
+
+li {
+ 	display: inline-block;
+ 	margin: 0 2rem;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightgray;
+	text-decoration: none;
+}
+
+img:hover {
+	opacity: 0.4;
+	border-radius: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 2em;
+    }
+    div {
+    	padding: 3em 0;
+    }
+}
+
+.one {
+	background-color: #F8CA00;
+}
+
+.one:hover {
+	background: url("../images/palmtrees.jpeg");
+	/* CHANGE TO LOCAL IMAGE FILE */
+	background-position: bottom;
+}
+
+.media_icon {
+	height: 10rem;
+	width: 10rem;
+	position: relative;
+	margin-top: 7rem;
+}
+
+.headline {
+	width: 100%;
+	text-align: left;
+	position: absolute;
+	bottom: 0.2rem;
+	left: 0;
+	margin-left: 0.5em;
+	font-size: 28px;
+}
+
+.content {
+	padding: 0;
+	/* border: 2px solid purple; */
+}
+
+.two {
+	background-color: #BD1550;
+}
+
+.two:hover {
+	background: url(../images/aboutme.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.about-button {
+	height: 4rem;
+	width: 16rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(189,21,80,0);
+	border: 2px dashed ; white;
+	font-family: 'Abel', sans-serif;
+	color: white;
+	font-size: 28px;
+}
+
+.about-button:hover {
+	background-color: #F8CA00;
+}
+
+.three {
+	background-color: #8A9B0F;
+}
+
+.project {
+/* 	border: 2px solid chocolate; */
+	text-align: center;
+	vertical-align: center;
+	height: auto;
+}
+
+.screenshot {
+	height: 10rem;
+	width: 15rem;
+}
+
+.foot {
+	text-align: right;
+	background-color: #490A3D;
+	height: 1rem;
+	padding: 0.3rem;
+	margin: 0;
+}
+
+.footer {
+	font-size: 12px;
+}
